@@ -1,0 +1,65 @@
+@-moz-viewport {width: device-width; scale: 1;}
+@-ms-viewport {width: device-width; scale: 1;}
+@-o-viewport {width: device-width; scale: 1;}
+@-webkit-viewport {width: device-width; scale: 1;}
+@viewport {width: device-width; scale: 1;}
+
+html {
+  box-sizing: border-box;
+  -moz-text-size-adjust:100%;
+  -ms-text-size-adjust:100%;
+  -webkit-text-size-adjust:100%;
+  -text-size-adjust:100%;
+
+ font-family: sans-serif;
+}
+
+header {
+	background-color:lightgrey;
+}
+
+h1 {
+	text-align:center;
+}
+
+.img-flex {
+	width:100%;
+	display: block;
+}
+
+ul {
+	list-style-type:none;
+	padding-left:0;
+}
+
+li {
+	display:block;
+	width:100%;
+	margin-right:1em;
+}
+
+body {
+	margin:0;
+}
+
+nav a {
+	color:blue;
+	text-decoration: none;
+}
+
+@media only screen and (min-width: 25em) {
+
+	li {
+		display:inline;
+		width:auto;
+	}
+
+	nav {
+padding: 1em 0;
+	}
+
+	ul {
+		margin:0 auto;
+	}
+
+}
