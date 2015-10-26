@@ -15,12 +15,18 @@ html {
 }
 
 header {
-	background-color:lightgrey;
+	background-color:grey;
 }
 
 h1 {
 	text-align:center;
 }
+
+.title {
+	background-color:lightgrey;
+	text-align:center;
+}
+
 
 .img-flex {
 	width:100%;
@@ -46,6 +52,14 @@ nav a {
 	color:blue;
 	text-decoration: none;
 }
+
+/*Characteristics*/
+
+dd {
+	margin-left:0;
+}
+
+/*Footer*/
 
 @media only screen and (min-width: 25em) {
 
