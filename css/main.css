@@ -14,6 +14,8 @@ html {
 	font-family: 'Raleway', sans-serif;
 }
 
+/*VENUS MAIN PAGE*/
+
 header {
 	background-color:grey;
 }
@@ -79,6 +81,18 @@ dd {
 }
 
 /*Footer*/
+
+.footer {
+	background-color:lightgrey;
+}
+
+/*EXPLORATION PAGE*/
+
+.greybox {
+	background-color:lightgray;
+}
+
+/*MOON PAGE*/
 
 @media only screen and (min-width: 20em) {
 
